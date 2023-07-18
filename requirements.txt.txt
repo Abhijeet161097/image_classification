@@ -1,0 +1,24 @@
+1. Libraries required
+
+import os
+
+import numpy as np
+import pandas as pd
+
+import tensorflow as tf
+from tensorflow import keras
+from keras.models import Sequential
+from keras.layers import Dense,Convolution2D,MaxPooling2D,Flatten,Conv2D,Dropout, BatchNormalization
+from keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.utils import load_img, img_to_array
+
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
+
+import matplotlib.pyplot as plt
+from PIL import Image
+
+2. You need to change the path of training, validation and testing data as per your system.
+
+3. You need to give path of file you need to use for prediction.
